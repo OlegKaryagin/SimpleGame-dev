@@ -1,0 +1,140 @@
+body {
+	background-color:#0094FF;
+}
+
+a{
+	text-decoration:none;
+}
+
+img{
+	width:300px;
+	height: 325px;
+}
+
+.font_1{
+	font-size: 50px;
+	font-family:courier new;
+	color: black;
+	margin: 0 auto;
+}
+
+.font_2{
+	font-size: 50px!important;
+	font-family:courier new;
+	color: white;
+	margin: 0 auto;
+}
+
+conteiner_1{
+	width:1140px;
+	height: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+  align-items: flex-start;
+}
+
+.conteiner_2{
+	width:300px;
+	height:325px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.conteiner_3{
+	width:840px;
+	height:325px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.name_box{
+	width:1140px;
+	height:140px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 66px;
+	background-color: #0864EF;
+	border: 5px solid rgba(255, 255, 255, 1);
+	box-sizing: border-box;
+}
+
+.name_text{
+	font-size: 100px;
+	font-family:courier new;
+	color: white;
+	margin: 0 auto;
+}
+
+text_box{
+	width:1140px;
+	height: 552px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-start;
+	background-color: #C4C4C4;
+	margin-top: 42px;
+	margin-bottom: 42px;
+}
+
+.comment{
+	width: 1140px;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #0864EF;
+	border: 5px solid rgba(255, 255, 255, 1);
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	
+}
+
+.comment_box{
+	width:1140px;
+	height: 200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #C4C4C4;
+	margin-bottom: 42px;
+	font-size: 4rem;
+}
+
+button_zone{
+	width:1140px;
+	height:107px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: flex-start;
+	margin-bottom: 42px;
+}
+
+.button_back{
+	width:360px;
+	height:107px;
+	margin-right: 420px;
+	display: flex;
+	align-items: center;
+	border: 5px solid rgba(255, 255, 255, 1);
+	box-sizing: border-box;
+	background-color: #0DEF08;
+}
+
+.button_main{
+	width:360px;
+	height:107px;
+	display: flex;
+	align-items:center;
+	border: 5px solid rgba(255, 255, 255, 1);
+	box-sizing: border-box;
+	background-color: #EF2408;
+}
