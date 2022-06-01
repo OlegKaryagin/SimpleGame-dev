@@ -34,7 +34,10 @@ const Game1 = () => {
 
     }, []);
 
-    const items = [1,2,3,4]
+    const items = [
+      "ok",
+      "Nice"
+    ]
 
 
     // if (comment == undefined){

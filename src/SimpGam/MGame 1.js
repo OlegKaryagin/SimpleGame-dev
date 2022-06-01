@@ -6,6 +6,14 @@ import {
 } from "react-router-dom"
 
 const MGame1 = () => {
+
+  
+
+  const items = [
+    "Nice",
+    "OK",
+    "greatest"
+  ]
     return (
 
           <conteiner_1>
@@ -15,7 +23,14 @@ const MGame1 = () => {
               <div className="conteiner_3"> <p className="font_1"> Cool game about fantasy world with angel and demon!</p> </div>
             </text_box>
             <div className="comment"> <p className="name_text"> Comment </p> </div> 
-            <input type="text" className="comment_box" />
+            {/* <input type="text" className="comment_box" /> */}
+            
+            <ul>
+              
+              {items.map((value, index) => {
+                return <li key={index}>{value}</li>
+              })}
+            </ul>
             <button_zone>
               <Link to = "/MultiplayerGame" className="button_back"> <p className="name_text"> Back </p> </Link>
               <Link to = "/" className="button_main"> <p className="name_text"> Main </p> </Link>
